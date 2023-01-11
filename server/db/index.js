@@ -5,6 +5,8 @@ const pool = mysql.createPool({
   user: "root",
   password: "password",
   database: "devdb",
+  host: "localhost",
+  port: "3306",
 });
 
 let devdb = {};

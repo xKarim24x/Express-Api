@@ -8,7 +8,7 @@ app.use(cors());
 
 app.use(express.json());
 
-app.use('/api/users', apiRouter)
+app.use('/users', apiRouter)
 
 app.get("/", (req, res) => {
     res.send("Express on vercel")
